@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, HttpResponseRedirect
-from store.models import Products
-from store.models import Category
+from store.models.products import Products
+from store.models.category import Category
 from django.views import View
 
 

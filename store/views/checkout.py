@@ -1,11 +1,11 @@
 from django.shortcuts import render, redirect
 
 from django.contrib.auth.hashers import check_password
-from store.models import Customer
+from store.models.customer import Customer
 from django.views import View
 
-from store.models import Products
-from store.models import Order
+from store.models.products import Products
+from store.models.order import Order
 
 
 class CheckOut(View):
